@@ -1,2 +1,2 @@
-install: make get-deps
 language: C
+install: make get-deps

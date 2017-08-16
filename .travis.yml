@@ -1,5 +1,5 @@
 language: c
-
+compiler: clang
 script:
   - clang -coverage -O0 main.c -o main
   - ./main

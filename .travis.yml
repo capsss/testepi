@@ -1,4 +1,6 @@
-install: make get-deps
-./configure && make && make test
-language: C
-compiler: gcc
+language: c
+
+script:
+  - clang -coverage -O0 main.c -o main
+  - ./main
+  - gcov main.c

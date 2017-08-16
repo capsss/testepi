@@ -1,2 +1,2 @@
+./configure && make && make test
 language: C
-install: make get-deps
